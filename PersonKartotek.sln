@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonKartotek", "PersonKartotek\PersonKartotek.csproj", "{00297E6E-1395-4899-B5BB-BDD527A58B87}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PersonKartotekDB", "PersonKartotekDB\PersonKartotekDB.sqlproj", "{B5B6BD44-ED60-4A40-940D-6F0873820275}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBInfrastructure", "DBInfrastructure\DBInfrastructure.csproj", "{54449059-944F-41E5-9BA2-9B820B8D802B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonKartotekUI", "PersonKartotekUI\PersonKartotekUI.csproj", "{FC9F2B6C-D0BB-49B3-B5D8-1B39C4A04E02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00297E6E-1395-4899-B5BB-BDD527A58B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00297E6E-1395-4899-B5BB-BDD527A58B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00297E6E-1395-4899-B5BB-BDD527A58B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00297E6E-1395-4899-B5BB-BDD527A58B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B6BD44-ED60-4A40-940D-6F0873820275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B6BD44-ED60-4A40-940D-6F0873820275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B6BD44-ED60-4A40-940D-6F0873820275}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B5B6BD44-ED60-4A40-940D-6F0873820275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B6BD44-ED60-4A40-940D-6F0873820275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B6BD44-ED60-4A40-940D-6F0873820275}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{54449059-944F-41E5-9BA2-9B820B8D802B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54449059-944F-41E5-9BA2-9B820B8D802B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54449059-944F-41E5-9BA2-9B820B8D802B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54449059-944F-41E5-9BA2-9B820B8D802B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC9F2B6C-D0BB-49B3-B5D8-1B39C4A04E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9F2B6C-D0BB-49B3-B5D8-1B39C4A04E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9F2B6C-D0BB-49B3-B5D8-1B39C4A04E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9F2B6C-D0BB-49B3-B5D8-1B39C4A04E02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28E4C3E9-7028-4C7C-9BDF-9CCADA776F45}
+	EndGlobalSection
+EndGlobal
